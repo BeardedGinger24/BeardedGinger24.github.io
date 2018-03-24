@@ -1,1 +1,66 @@
-Hello World
+
+<!doctype html>
+<html lang="en">
+<head>
+<title>Store</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="container">
+
+		<!-- Page Header -->
+		<div class="page-header">
+			<h2>
+				Store <small> <span id="cart">${cart}</span> item(s) in Cart
+					<small> [<a href="ShoppingCart">Shopping Cart</a>]
+				</small> <small> [<a href="Inventory">Inventory Manager</a>]
+				</small><small> [<a href="History">Transaction History</a>]
+				</small>
+				</small>
+			</h2>
+		</div>
+
+		<c:if test="${empty items}">
+			<div class="jumbotron">
+				<h1>
+					Uh-Oh! <small>There are no items to display.</small>
+				</h1>
+			</div>
+		</c:if>
+
+		<c:if test="${not empty items}">
+			<table class="table table-hover table-striped table-bordered">
+				<thead>
+					<tr>
+						<th>Item</th>
+						<th>Price</th>
+						<th>Quantity</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					<c:forEach items="${items}" var="item">
+						<tr>
+							<td><c:url value="Details" var="details">
+									<c:param name="id" value="${item.id}" />
+								</c:url> <a href="${details}">${item.name}</a></td>
+							<td>${item.price}</td>
+							<td>${item.quantity}</td>
+							<td><c:url value="Add" var="shoppingCart">
+									<c:param name="id" value="${item.id}" />
+									<c:param name="quantity" value="1" />
+								</c:url> <a class="btn btn-primary btn-xs" href="${shoppingCart}">Add
+									to Cart</a></td>
+							</td>
+						</tr>
+					</c:forEach>
+				</tbody>
+			</table>
+		</c:if>
+</body>
+</html>
