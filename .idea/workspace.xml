@@ -2,6 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d81db4e-b4e7-4a7c-b76a-801b77caef3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/less/fa-brands.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/less/fa-regular.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/less/fa-solid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/scss/fa-brands.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/scss/fa-regular.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free/scss/fa-solid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/builtin-modules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/builtin-modules/static.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-builtin-module/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-builtin-module/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-builtin-module/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-builtin-module/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-odd/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-odd/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-odd/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-odd/node_modules/is-number/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-odd/node_modules/is-number/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-odd/node_modules/is-number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-odd/node_modules/is-number/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-odd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-immediate-shim/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-immediate-shim/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-immediate-shim/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,8 +48,10 @@
     <session id="514856037">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,7 +67,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -94,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,7 +139,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,25 +170,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558814731302</updated>
-      <workItem from="1558814732898" duration="313000" />
+      <workItem from="1558814732898" duration="376000" />
+      <workItem from="1558815542491" duration="307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313000" />
+    <option name="totallyTimeSpent" value="683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
@@ -163,6 +193,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -185,7 +219,7 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
