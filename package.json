@@ -1,11 +1,11 @@
 {
-    "title": "Grayscale",
-    "name": "startbootstrap-grayscale",
-    "version": "5.0.6",
+    "title": "MherOganesyan",
+    "name": "mheroganesyan",
+    "version": "1.0.0",
     "scripts": {
         "start": "gulp watch"
     },
-    "description": "A grayscale one page HTML theme for Bootstrap.",
+    "description": "Personal website",
     "keywords": [
         "css",
         "sass",
@@ -14,7 +14,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/grayscale",
+    "homepage": "https://beardedginger24.github.io",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
         "email": "feedback@startbootstrap.com"
